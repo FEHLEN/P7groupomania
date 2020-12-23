@@ -6,7 +6,7 @@ console.log('connectdb');
 let connectdb = mysql.createConnection({ 
     host: 'localhost', 
     user: 'root', 
-    password: 'process.env.PASSWORD', 
+    password: 'snoopy', 
     database: 'p7groupomania', 
 });
 connectdb.connect(function(err) { 
